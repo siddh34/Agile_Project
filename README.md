@@ -2,4 +2,5 @@
 
 Agile processes are demonstrated using this repo.
 
-* Scrum
+* Scrum Team
+
