@@ -9,3 +9,9 @@
     CSS
 
     JAVASCRIPT
+
+    REACTJS
+
+    SQL
+
+    
