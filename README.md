@@ -1,3 +1,11 @@
-# Agile_Project
+# Music Controller App
 
-Agile processes are demonstrated using this repo
+## Technology used
+
+    DJANGO
+
+    HTML 
+
+    CSS
+
+    JAVASCRIPT
