@@ -14,4 +14,4 @@ services:
     # Copy changes made to the project to your image in real-time.
       - .:/django_recipe_api
     # Handles the command used to run the project in the Docker container.
-    command: sh -c "python manage.py runserver 0.0.0.0:8000" 
+    command: sh -c "python manage.py runserver" 
