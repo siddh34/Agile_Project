@@ -18,6 +18,7 @@ ENV PYTHONUNBUFFERED 1
 # install dependencies  
 RUN pip install --upgrade pip  
 
+
 # RUN cd ./frontend
 
 # RUN npm install i
@@ -28,7 +29,9 @@ RUN pip install --upgrade pip
 COPY . /app
 
 # run this command to install all dependencies  
-RUN pip install -r requirements.txt  
+RUN pip install -r requirements.txt
+
+RUN pip install requests
 
 # start server  
 CMD python manage.py runserver 0.0.0.0:8000 
